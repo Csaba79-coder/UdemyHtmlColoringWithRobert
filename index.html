@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <title>
+        How to use colors in HTML
+    </title>
+
+    <head>
+        Coloring example with Robert from Udemy
+    </head>
+
+    <!-- rgb - red green and blue!  0 - 255 zero less, 255 more color of it! -->
+    <!-- rgba  - red green and blue and alpha!!!  0 - 255 zero less, 255 more color of it! alpha value from 0.0 till 1.0 if you choose 0.5 means 50% opacity of the color!-->
+    <!-- color with using # rr gg bb and sometimes aa  from 00 till ff (all of them!)-->
+    <!-- color with using # rr gg bb aa and sometimes aa  from 00 till ff (all of them!) aa as alpha! 80 at the end will gives 50% opacity of the color! (like 0.5 at rgba!)-->
+    <!-- hsl - hue /color value/ saturation /color intensity/ lightness /amount of light or dark color/ percent from zero till 100 percent! less percent in lightness means more dark of color! -->
+    <!-- hue is from 0-360 and saturation and lightness l 0-100 % alpha works the same as before! -->
+    <!-- hsla  - hue saturation lightness a goes from 0.0 till 1.0 but also worked with percent! 0.5 = 50%-->
+    <body>
+        <h1>Try rgb!</h1>
+        <h2>This one with rgba!</h2>
+        <h3>This one is with RRGGBB # - HEX value</h3>
+        <h4>This one is with RRGGBBAA #</h4>
+        <h5>This one is with hsl</h5>
+        <h6>This one is with hsla</h6>
+        <p>Example text</p>
+        <style>
+            p{color: blue;}
+            h1{color: rgb(0, 255, 0);}
+            h2{color: rgba(0, 255, 0, 0.5);}
+            h3{color: #ff00ff;}
+            h4{color: #ff00ff80;}
+            h5{color: hsl(0, 100%, 30%)}
+            h6{color: hsla(0, 100%, 30%, 0.4)}
+        </style>
+    </body>
+</html>
